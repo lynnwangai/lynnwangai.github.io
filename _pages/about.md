@@ -2,33 +2,60 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Applied Scientist · Deep Learning · Time-Series · Caltech Ph.D.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: false
+  more_info:
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Linghui (Lynn) Wang, an applied machine learning scientist working at the intersection of deep learning, physical systems, and real-world decision-making.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm currently a Senior Machine Learning Researcher at Bayer R&D, where I lead the development of ML systems for complex, noisy, high-dimensional data. My work focuses on domain-informed deep learning, multivariate time series, multimodal learning, transfer learning, and scalable model deployment. I've built production-ready models that improved predictive performance by over 10%, accelerated training by 80%, and strengthened generalization in challenging data regimes.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before industry, I earned my Ph.D. in Applied Physics from Caltech, where I studied ion transport, soft matter, and biomimetic sensing materials. That training shaped how I approach machine learning: I aim to build deep learning models that generalize by combining data-driven methods with domain knowledge and scientific intuition. I'm also interested in using models not only for prediction, but as tools to understand structure, interactions, and dynamics in complex systems.
+
+More broadly, I'm interested in AI systems that do more than fit data — systems that help us predict, uncover useful structure, and support better decisions in complex environments.
+
+---
+
+## Current Interests
+
+- **Mechanistic interpretability** — understanding the internal representations and circuits that drive behavior in large neural networks
+- **Domain-informed deep learning** — grounding data-driven methods in physical and scientific structure to improve robustness and generalization
+- **AI alignment and safety** — building systems whose goals remain robustly aligned with human intent at scale
+- **AI's societal implications** — how large-scale AI deployment reshapes scientific practice, decision-making, and institutional trust
+
+---
+
+## Recognition
+
+- Bayer R&D Eclipse Award — Top Innovation Award, Global R&D (2025)
+- Asia Breeding Year End Award (2025)
+- R&D Top Performer Award (2024)
+
+---
+
+## Visual Thinking
+
+Outside of research, I make things — mostly photography and visual art.
+
+<div class="row mt-3">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/art_1.jpg" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/art_2.jpg" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
