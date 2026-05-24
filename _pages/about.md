@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Applied Scientist · Deep Learning · Time-Series · Caltech Ph.D.
 
@@ -28,6 +28,8 @@ Before industry, I earned my Ph.D. in Applied Physics from Caltech, where I stud
 
 More broadly, I'm interested in AI systems that do more than fit data — systems that help us predict, uncover useful structure, and support better decisions in complex environments.
 
+[View my full CV →](/cv/)
+
 ---
 
 ## Current Interests
@@ -49,7 +51,7 @@ More broadly, I'm interested in AI systems that do more than fit data — system
 
 ## Visual Thinking
 
-Outside of research, I make things — mostly photography and visual art.
+Outside of research, I paint and photograph. One of my photographs was shortlisted in the APOY 2025 Black & White Photography competition.
 
 <div class="row mt-3">
   <div class="col-sm-6 mt-3 mt-md-0">
