@@ -26,7 +26,7 @@ I'm currently a Senior Machine Learning Researcher at Bayer R&D, where I lead th
 
 Before industry, I earned my Ph.D. in Applied Physics from Caltech, where I studied ion transport, soft matter, and biomimetic sensing materials. That training shaped how I approach machine learning: I aim to build deep learning models that generalize by combining data-driven methods with domain knowledge and scientific intuition. I'm also interested in using models not only for prediction, but as tools to understand structure, interactions, and dynamics in complex systems.
 
-More broadly, I'm interested in AI systems that do more than fit data — systems that help us predict, uncover useful structure, and support better decisions in complex environments.
+More broadly, I'm interested in AI systems that do more than fit data, instead I am passionate about building systems that help us predict, uncover useful structure, and support better decisions in complex environments.
 
 [View my full CV →](/cv/)
 
