@@ -55,7 +55,7 @@ Outside of research, I paint and photograph. One of my photographs was shortlist
 
 <div class="row mt-3">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/art_1.jpg" class="img-fluid rounded z-depth-1" caption="Shortlisted — APOY 2025 Black & White Photography" %}
+    {% include figure.liquid path="assets/img/art_1.jpg" class="img-fluid rounded z-depth-1" caption="When the curtain lifted" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/art_2.jpg" class="img-fluid rounded z-depth-1" caption="Still life study, digital painting" %}
