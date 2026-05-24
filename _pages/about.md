@@ -51,13 +51,13 @@ More broadly, I'm interested in AI systems that do more than fit data — system
 
 ## Visual Thinking
 
-Outside of research, I paint and photograph. One of my photographs was shortlisted in the APOY 2025 Black & White Photography competition.
+Outside of research, I paint and photograph. One of my photographs was shortlisted in a global photography competition (APOY 2025 Black & White).
 
 <div class="row mt-3">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/art_1.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/art_1.jpg" class="img-fluid rounded z-depth-1" caption="Shortlisted — APOY 2025 Black & White Photography" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/art_2.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/art_2.jpg" class="img-fluid rounded z-depth-1" caption="Still life study, digital painting" %}
   </div>
 </div>
