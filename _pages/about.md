@@ -51,13 +51,67 @@ More broadly, I'm interested in AI systems that do more than fit data, instead I
 
 ## Visual Thinking
 
-Outside of research, I paint and photograph. One of my photographs was shortlisted in a global photography competition (APOY 2025 Black & White).
+Outside of research, I paint and photograph. It is another way for me to notice, understand, and enjoy patterns, structure, and light. One of my photographs was shortlisted in the global APOY 2025 Black & White competition, and is also currently on view in a juried exhibition at the St. Louis Artists' Guild.
 
-<div class="row mt-3">
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/art_1.jpg" class="img-fluid rounded z-depth-1" caption="When the curtain lifted" %}
+<style>
+  .vt-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin: 1.5rem auto 0;
+    max-width: 70%;
+  }
+  .vt-item {
+    position: relative;
+    aspect-ratio: 2 / 3;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  .vt-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+  }
+  .vt-item:hover img {
+    transform: scale(1.04);
+  }
+  .vt-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.42);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: flex-end;
+    padding: 0.85rem 1rem;
+  }
+  .vt-item:hover .vt-overlay {
+    opacity: 1;
+  }
+  .vt-caption {
+    color: #fff;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    letter-spacing: 0.01em;
+  }
+  @media (max-width: 576px) {
+    .vt-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="vt-grid">
+  <div class="vt-item">
+    <img src="/assets/img/art_1.jpg" alt="When the curtain lifted" loading="lazy" />
+    <div class="vt-overlay">
+      <span class="vt-caption">When the curtain lifted</span>
+    </div>
   </div>
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/art_2.jpg" class="img-fluid rounded z-depth-1" caption="Still life study, digital painting" %}
+  <div class="vt-item">
+    <img src="/assets/img/art_2.jpg" alt="Untitled, digital painting" loading="lazy" />
+    <div class="vt-overlay">
+      <span class="vt-caption">Still life study, digital painting</span>
+    </div>
   </div>
 </div>
